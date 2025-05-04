@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Daniel Custo`</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Daniel Custo`</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button onclick="toggleTheme()">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="project-section">
+    <h3>My Projects</h3>
+
+    <input type="text" id="searchInput" placeholder="Search projects..." oninput="filterProjects()" />
+    <div class="filters">
+      <button onclick="filterCategory('all')">All</button>
+      <button onclick="filterCategory('web')">Web</button>
+      <button onclick="filterCategory('app')">App</button>
+      <button onclick="filterCategory('design')">Design</button>
+    </div>
+
+    <div class="project-grid">
+      <div class="project-card" data-category="web">
+        <h4>Portfolio Website</h4>
+        <p>Responsive personal site with dark mode.</p>
+      </div>
+      <div class="project-card" data-category="app">
+        <h4>To-Do App</h4>
+        <p>Simple JS-based app with local storage.</p>
+      </div>
+      <div class="project-card" data-category="design">
+        <h4>Figma UI Kit</h4>
+        <p>Modern UI components for web startups.</p>
+      </div>
+      <div class="project-card" data-category="web">
+        <h4>Task Monitoring Website</h4>
+        <p>Simple Task Monitoring Website using Html, CSS and JavaScript.</p>
+      </div>
+      <p>‎  </p>
+    <p>‎  </p>
+    <p>‎  </p>
+    <p>‎  </p>
+    <p>‎  </p>
+    <p>‎  </p>
+    <p>‎  </p>
+    <p>‎  </p>
+    <p>‎  </p>
+    <p>‎  </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Daniel Custo`</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

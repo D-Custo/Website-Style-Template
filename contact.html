@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Daniel Custo`</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Daniel Custo`</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button onclick="toggleTheme()">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-form">
+    <h3>Let’s Talk</h3>
+    <form onsubmit="submitForm(event)">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Your message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-status"></p>
+    <p>‎  </p>
+    <p>‎  </p>
+    <p>‎  </p>
+    <p>‎  </p>
+    <p>‎  </p>
+    <p>‎  </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Daniel Custo`</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
